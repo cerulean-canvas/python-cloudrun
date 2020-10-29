@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def hello():
-    return "Are you enjoying this Class? Don't forget to rate us!!😊😊😊 "
+    return "Hello, There! Welcome to this class!! 😊😊😊 "
 
 if __name__ == "__main__":
     app.run(host="localhost", port=8080, debug=True)
